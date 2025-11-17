@@ -1,1 +1,5 @@
-# Web-Scraper
+This task is about creating a simple web scraper that automatically collects news headlines from a website. Instead of manually visiting a news page and reading all the headlines, the Python script does this job for you. The main goal is to visit a news website, read its HTML content, extract the headline texts, and save them into a text file.
+To do this, we use two important Python libraries: requests and BeautifulSoup.
+The requests library is used to fetch the webpage, just like how a browser loads a site when we type a URL. Once the webpage is fetched, we get the raw HTML code of the site.
+Next, the BeautifulSoup library helps us read and understand this HTML content. It works like a parser that can find specific tags inside the webpage.
+After collecting all the headlines, the next step is to store them. The program creates a file called headlines.txt and writes each headline into the file on a new line. This makes it easy to read, share, or analyze the collected data later. In this way, the entire process becomes automated — from visiting the website to saving the headlines.
